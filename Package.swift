@@ -17,7 +17,7 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
-	    .package(name: "SwiftProtobuf", url: "https://github.com/apple/swift-protobuf.git", from: "1.4.0"),
+        .package(name: "SwiftProtobuf", url: "https://github.com/apple/swift-protobuf.git", from: "1.4.0"),
         .package(name: "Socket", url: "https://github.com/IBM-Swift/BlueSocket.git", from: "1.0.45")
     ],
     targets: [
